@@ -133,6 +133,7 @@ nav ul li a {
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
+      padding-left: 50px;
 }
 
 .social-media ul li {
@@ -143,8 +144,8 @@ nav ul li a {
 
 .header {
       position: absolute;
-      top: 50%;
-      left: 46%;
+      top: 55%;
+      left: 18%;
       transform: translate(-50%, -50%);
 }
 
@@ -157,7 +158,9 @@ nav ul li a {
 .header p {
       color: #fff;
       font-weight: lighter;
-      font-size: 2em;
+      font-size: 24px;
+      padding-top: 40px;
+      color: black;
 }
 .content {
       width: 60%;
@@ -172,7 +175,7 @@ nav ul li a {
       border-bottom: 1px solid;
 }
 .color{
-      background: #ddd;
+      background: #e6e6ff;
       padding-top: 5px;
       padding-bottom: 5px;
 
@@ -195,7 +198,7 @@ nav ul li a {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-gap: 1rem;
-      @media only screen and (max-width: 1100px) { 
+      @media only screen and (max-width: 1100px) {
             grid-template-columns: repeat(3, 1fr);
       }
       @media only screen and (max-width: 800px) {
@@ -214,11 +217,9 @@ nav ul li a {
 .contenedor {
   font-family: 'Yrsa', Times New Roman, serif;
   width: 100vw;
-  height: 100vh;
-  display: grid;
-  grid-template: 1fr 1fr / 1fr 1fr;
-  grid-gap: 10px;
+  height: 105vh;
   background: #ddd;
+  padding-top: 5%;
 }
 .effect {
   display: flex;
@@ -228,6 +229,7 @@ nav ul li a {
   text-align: center;
   padding: 1em;
   cursor: pointer;
+
 }
 .effect__heading {
   font-size: 1.5em;
@@ -288,7 +290,7 @@ nav ul li a {
   line-height: 1;
   top: 100%;
   left: 50%;
-  transform-orign: 50% 50%;
+  transform-origin: 50% 50%;
   transform: translate(-50%, -50%) scale(0.8) rotate(45deg);
   transition: opacity 0.5s cubic-bezier(0.5, 0, 0.5, 1), transform 0.5s cubic-bezier(0.5, 0, 0.5, 1);
 }
@@ -393,17 +395,17 @@ nav ul li a {
 
 @font-face {
   font-family: Poppins-Regular;
-  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+  src: url('../fonts/poppins/Poppins-Regular.ttf');
 }
 
 @font-face {
   font-family: Poppins-Medium;
-  src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+  src: url('../fonts/poppins/Poppins-Medium.ttf');
 }
 
 @font-face {
   font-family: Poppins-Bold;
-  src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+  src: url('../fonts/poppins/Poppins-Bold.ttf');
 }
 
 
@@ -413,8 +415,8 @@ nav ul li a {
 [ RESTYLE TAG ]*/
 
 * {
-      margin: 0px; 
-      padding: 0px; 
+      margin: 0px;
+      padding: 0px;
       box-sizing: border-box;
 }
 
@@ -521,14 +523,14 @@ iframe {
 /*//////////////////////////////////////////////////////////////////
 [ Contact 2 ]*/
 .bg-contact2 {
-  width: 100%;  
+  width: 100%;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 
 .container-contact2 {
-  width: 100%;  
+  width: 100%;
   min-height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
@@ -735,13 +737,13 @@ textarea.input2 + .focus-input2::after {
   min-width: 244px;
   height: 50px;
 
- 
+
 
   font-family: Poppins-Medium;
   font-size: 16px;
   color: #fff;
   line-height: 1.2;
-  
+
 
 }
 

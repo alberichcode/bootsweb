@@ -9,10 +9,7 @@
       <!-- stylesheet -->
       <link rel="stylesheet" href="main.scss">
 
-      <!-- bootstrap -->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-
       <!-- font-awesome -->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -35,12 +32,16 @@
 
       <!-- greensock -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+
+      <!-- bootstrap -->
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
 </head>
 <body>
 
-      <div class="overlay">
+      <!--<div class="overlay">
             <h1>A life with the guitar</h1>
-      </div>
+      </div>-->
 
       <div class="wrapper">
       	<header id="home">
@@ -57,46 +58,72 @@
                         <div class="menu">
                               <ul>
                                     <li><a data-scroll href="#home">Home</a></li>
-                                    <li><a data-scroll href="#about">About</a></li>
-                                    <li><a href="#music">Music</a></li>
-                                    <li><a href="#">Contact</a></li>
+                                    <li><a data-scroll href="#about">Biography</a></li>
+                                    <li><a href="#music">Recordings & Projects</a></li>
+                                    <li><a href="#reviews">Reviews</a></li>
+                                    <li><a href="#contact">Contact</a></li>
                               </ul>
                         </div>
             </nav>
-            <div class="social-media">
-                  <ul>
-                        <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
-                        <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
-                        <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
-                  </ul>
-            </div>
-      
+
             <div class="header">
                   <h1>Laura Young</h1>
                   <br>
-                  <p>"Virtuosic brilliance combined with the pure joy of making music" 
-                  Nurtinger Zeitung (Germany)</p>
+                  <p>"Virtuosic brilliance combined <br>with the pure joy of making music"
+                  <br>
+                  <small>Nurtinger Zeitung</small></p>
             </div>
         </header>
         <div class="color">
-        	<div class="content" id= "about">
-        	<h1>About me </h1>
+        	<div class="content" id= "about" >
+        	<h1>Biography </h1>
 
             <p>
                   Laura Young is one of the most expressive artists in the world of classical guitar today. Born in Toronto of Russian and Irish heritage, Laura began her study of music at the age of seven. With a rare passion and intensity she applied herself to technical mastery of the instrument, building on the exceptional musicality evident from the moment she began to play.
                   <img class = "img-bio" src="img/laurasonrie.jpg" width="550" height="400">Laura has been recognized as a gifted artist; winning prestigious prizes at international competitions such as the “Andrés Segovia” in Palma de Mallorca, Spain and the “Jacinto e Inocencio Guererro” in Madrid, Spain, among many others. As a soloist Laura has given widely acclaimed performances, offering profound and often daring programs in concert halls around the world, from the Alte Oper in Frankfurt, Germany to the National Arts Centre in Ottawa, Canada to the Auditorio Nacional in Madrid, Spain. She’s also a regularly invited performer and teacher in International Guitar Festivals: Toronto, Canada; Ezstergom, Hungary; Gdansk, Poland; Cologne, Germany; and Volos, Greece – to name but a few. In addition to her solo career, Laura was a founding member of the very successful Trio de Cologne with Zoran Dukić and Pablo Marquez who performed throughout the 1990’s in Europe and the Americas. Numerous composers have dedicated works to the trio including: Sergio Assad, Carlo Domeniconi, Atanas Ourkouzounov and Dušan Bogdanović among others.  Laura is known and appreciated by critics and the listening public alike for the power and beauty of her sound, depth of colour and exquisite phrasing in her playing. She has recorded a number of recordings with a richly varied repertoire, most recently works by Max Reger for solo violin and solo cello which received the prestigious Pasticcio Critics Award in Austria 2016. Her duo Lagrimosa Beltá with mezzo soprano Frances Pappas, is considered one of the best ensemble of its kind offering ancient songs in contemporary settings.
 
-From 1997 - 2001, Laura was the founder and Artistic Director of the Amsterdam International Guitar Festival. Laura Young was awarded full professorship at the Escuela Superior de Musica en Catalunya (ESMUC) in Barcelona, Spain in 2003. In October 2014, she was appointed professor of guitar at the Mozarteum in Salzburg, Austria. 
+From 1997 - 2001, Laura was the founder and Artistic Director of the Amsterdam International Guitar Festival. Laura Young was awarded full professorship at the Escuela Superior de Musica en Catalunya (ESMUC) in Barcelona, Spain in 2003. In October 2014, she was appointed professor of guitar at the Mozarteum in Salzburg, Austria.
 
             </p>
-            
+
          </div>
         </div>
          <div class="grid-cd" id = "music">
-
-            <figure class="imghvr-flip-horiz" style="background-color:rgb(174, 55, 55);" >
-              <img src="img/cdbelleexcentriquetrio.jpg" width="350" height="350">
+         	<figure class="imghvr-flip-horiz" style="background-color:rgb(174, 55, 55);" >
+              <img src="img/cdreager.jpg" width="350" height="350">
               <figcaption style="background-color:rgb(136, 43, 43);">
+                <h3>Oscar Wilde</h3>
+                <p style= "color: white;">
+                <i>"I have the simplest tastes, I am always satisfied with the best."</i>
+                </p>
+                <!-- Button trigger modal -->
+                <link  data-toggle="modal" data-target="#myModal">Launch demo modal</link>
+
+                  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="purchaseLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                             <div class="modal-header">
+                               <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                 <span aria-hidden="true">&times;</span>
+                               </button>
+                             </div>
+                              <div class="modal-body">
+                                  sup?
+                              </div>
+                              <div class="modal-footer">
+                                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                  <button type="button" class="btn btn-primary">Purchase</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </figcaption>
+              <a href="#"></a>
+            </figure>
+            <figure class="imghvr-flip-horiz" >
+              <img src="img/cdlacrimosa.jpg" width="350" height="350">
+               <figcaption style="background-color: rgb(0, 0, 102);">
                 <h3>Oscar Wilde</h3>
                 <p style= "color: white;">
                 <i>"I have the simplest tastes, I am always satisfied with the best."</i>
@@ -117,7 +144,18 @@ From 1997 - 2001, Laura was the founder and Artistic Director of the Amsterdam I
               <a href="#"></a>
             </figure>
             <figure class="imghvr-flip-horiz" style="background-color:rgb(174, 55, 55);" >
-              <img src="img/cdreager.jpg" width="350" height="350">
+              <img src="img/cdlaurasolo.jpg" width="350" height="350">
+              <figcaption style="background-color:rgb(136, 43, 43);">
+                <h3>Oscar Wilde</h3>
+                <p style= "color: white;">
+                <i>"I have the simplest tastes, I am always satisfied with the best."</i>
+                </p>
+                <button class=" btn btn-info" href="#">Buy it</button>
+              </figcaption>
+              <a href="#"></a>
+            </figure>
+            <figure class="imghvr-flip-horiz" style="background-color:rgb(174, 55, 55);" >
+              <img src="img/cdbelleexcentriquetrio.jpg" width="350" height="350">
               <figcaption style="background-color:rgb(136, 43, 43);">
                 <h3>Oscar Wilde</h3>
                 <p style= "color: white;">
@@ -138,64 +176,57 @@ From 1997 - 2001, Laura was the founder and Artistic Director of the Amsterdam I
               </figcaption>
               <a href="#"></a>
             </figure>
-            <figure class="imghvr-flip-horiz" style="background-color:rgb(174, 55, 55);" >
-              <img src="img/cdlaurasolo.jpg" width="350" height="350">
-              <figcaption style="background-color:rgb(136, 43, 43);">
-                <h3>Oscar Wilde</h3>
-                <p style= "color: white;">
-                <i>"I have the simplest tastes, I am always satisfied with the best."</i>
-                </p>
-                <button class=" btn btn-info" href="#">Buy it</button>
-              </figcaption>
-              <a href="#"></a>
-            </figure>
-            <figure class="imghvr-flip-horiz" >
-              <img src="img/cdlacrimosa.jpg" width="350" height="350">
-               <figcaption style="background-color: rgb(0, 0, 102);">
-                <h3>Oscar Wilde</h3>
-                <p style= "color: white;">
-                <i>"I have the simplest tastes, I am always satisfied with the best."</i>
-                </p>
-                <button class=" btn btn-info" href="#">Buy it</button>
-              </figcaption>
-              <a href="#"></a>
-            </figure>
-         	
-         </div>
-         
-            
 
-            
+
+
+         </div>
+
+
+
+
      </div>
 
-     <div class="contenedor">
-		  <section class="effect effect-a">
-		    <h1 class="effect__heading">“Time is a drug. Too much of it kills you.” </h1>
-		    <h2 class="effect__subheading">Terry Pratchett</h2>
+     <div class="contenedor" id="reviews">
+		  <section class="effect effect-a col-7">
+		    <h1 class="effect__heading">“Explosive virtuosity with profound lyricism and stylistic clarity.” </h1>
+		    <h2 class="effect__subheading">Gitarre und Laute (Germany)</h2>
 		  </section>
-		  
-		  <section class="effect effect-b">
-		    <h1 class="effect__heading">“Sometimes you wake up. Sometimes the fall kills you. And sometimes, when you fall, you fly.” </h1>
-		    <h2 class="effect__subheading"> Neil Gaiman</h2>
+
+		  <section class="effect effect-b col-7 offset-5">
+		    <h1 class="effect__heading">“Astounding ,.... her performance was breathtaking.” </h1>
+		    <h2 class="effect__subheading"> Soundboard (U.S.A.)</h2>
 		  </section>
-		  
-		  <section class="effect effect-c">
-		    <h1 class="effect__heading">“Pain is inevitable. Suffering is optional.” </h1>
-		    <h2 class="effect__subheading">Haruki Murakami</h2>
+
+		  <section class="effect effect-c col-7">
+		    <h1 class="effect__heading">“Freedom, excitement and delight in the playing.” </h1>
+		    <h2 class="effect__subheading">Absolute Sound (USA)</h2>
 		  </section>
-		  
-		  <section class="effect effect-d">
-		    <h1 class="effect__heading">“That's what careless words do. They make people love you a little less.”</h1>
-		    <h2 class="effect__subheading">Arundhati Roy</h2>
+
+		  <section class="effect effect-d col-7 offset-5">
+		    <h1 class="effect__heading">“Sparkling....excellent...superb.”</h1>
+		    <h2 class="effect__subheading">Klassiek (Holland)</h2>
+		  </section>
+      <section class="effect effect-a col-7">
+		    <h1 class="effect__heading">“It must be rare in the extreme to get three guitarists of this calibre <br>
+          on one stage at the same time, let alone three who play so well together.” </h1>
+		    <h2 class="effect__subheading">The Globe and Mail (Canada)</h2>
+		  </section>
+      <section class="effect effect-b col-7 offset-5">
+		    <h1 class="effect__heading">“The orchestral dimension of the guitar demonstrated to its fullest.” </h1>
+		    <h2 class="effect__subheading">Neue Westfalische Anzeiger (Germany)</h2>
+		  </section>
+      <section class="effect effect-c col-7">
+		    <h1 class="effect__heading">“Virtuosic brilliance combined with the pure joy of making music.” </h1>
+		    <h2 class="effect__subheading">Nurtinger Zeitung (Germany)</h2>
 		  </section>
 	</div>
 
-	<div class="bg-contact2" style="background-image: url('images/bg-01.jpg');">
+	<div class="bg-contact2" id="contact" style="background-image: url('images/bg-01.jpg');">
 		<div class="container-contact2">
 			<div class="wrap-contact2">
 				<form class="contact2-form validate-form" action="https://formspree.io/al.gp123@gmail.com" method="POST">
 					<span class="contact2-form-title">
-						Contact Us
+						Contact
 					</span>
 
 					<div class="wrap-input2 validate-input" data-validate="Name is required">
@@ -227,7 +258,8 @@ From 1997 - 2001, Laura was the founder and Artistic Director of the Amsterdam I
 	</div>
 
 
-     <script type="text/javascript">
+
+     <!--<script type="text/javascript">
 
       TweenMax.to(".overlay h1", 2, {
             opacity: 0,
@@ -305,6 +337,8 @@ From 1997 - 2001, Laura was the founder and Artistic Director of the Amsterdam I
             ease: Expo.easeInOut
       })
 
+    </script>-->
+    <script type="text/javascript">
       $(document).ready(function() {
             $(".menu-icon").on("click", function() {
                   $("nav ul").toggleClass("showing");
@@ -319,8 +353,7 @@ From 1997 - 2001, Laura was the founder and Artistic Director of the Amsterdam I
                   $('nav').removeClass('black');
             }
       })
-
-     </script>
+    </script>
       <script src="dist/smooth-scroll.js"></script>
       <script>
 	    var scroll = new SmoothScroll('a[href*="#"]');
@@ -340,5 +373,3 @@ From 1997 - 2001, Laura was the founder and Artistic Director of the Amsterdam I
 	  </script>
 </body>
 </html>
-
-
