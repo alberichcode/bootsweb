@@ -90,46 +90,122 @@ From 1997 - 2001, Laura was the founder and Artistic Director of the Amsterdam I
         </div>
          <div class="grid-cd" id = "music">
            <div class="cdcontainer">
-             <img src="img/cdreager.jpg" width="350" height="350" class="image">
+             <img src="img/cdreager.jpg" width="350" height="350" class="image" id="myimage">
              <div class="overlay">
-               <button type="button" class="btn btn-outline-primary text " data-toggle="modal" data-target="#modalIMG">Read more</button>
+               <button type="button" class="btn btn-outline-light btn-block text " data-toggle="modal" data-target="#modalIMG" style="font-size:20px;">Read more</button>
              </div>
              <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG" role="dialog" tabindex="-1">
-               <div class="modal-dialog modal-lg modal-dialog-centered" role: "document">
+               <div class="modal-dialog modal-lg modal-dialog-centered-scrollable" role: "document">
                  <div class="modal-content">
-                   <div class="modal-body mb-0 p-0">
+                   <div class="modal-body mb-0 p-0 bg-modal">
                      <div class="container-fluid">
                        <div class="row">
-                         <img src="img/cdreager.jpg" alt="" style="width:50%">
-                         <div class="col-6">
+                         <div class="col-6" style="margin-top: 20%;">
                            <div class="panel panel-default audio-panel">
                                        <audio id="audio"  preload="auto" tabindex="0" controls>
                                            <source src="audios/track01.m4a">
                                        </audio>
                            </div>
+                           <img src="img/cdreager.jpg" alt="" style="width:100%; height: 35%;">
+                         </div>
+                         <div class="col-6">
                            <ul id="playlist">
 
-                               <li class="active list-group-item">
-                                    <a href="https://jsbin-user-assets.s3.amazonaws.com/ipodscott/sample1.mp3">
-                                       Sample 1
+                                <li class="active list-group-item">
+                                    <a class="track" href="audios/track01.m4a">
+                                       01 Prelude & Fugue In E Minor, Op. 117 No. 3 (Arr. For Guitar)_ I. Prelude. Vivace
                                     </a>
                                 </li>
                                 <li class="list-group-item">
-                                    <a href="https://jsbin-user-assets.s3.amazonaws.com/ipodscott/sample2.mp3">
-                                        Sample 2
+                                    <a class="track" href="audios/track02.m4a">
+                                        02 Prelude & Fugue In E Minor, Op. 117 No. 3 (Arr. For Guitar)_ II. Fugue. Allegro Energico
                                     </a>
                                 </li>
-                                 <li class="list-group-item">
-                                    <a href="https://jsbin-user-assets.s3.amazonaws.com/ipodscott/sample3.mp3">
-                                        Sample 3
+                                <li class="list-group-item">
+                                    <a class="track" href="audios/track03.m4a">
+                                      03 Violin Sonata In D Minor, Op. 42 No. 1 (Arr. For Guitar)_ I. Allegro Energico
                                     </a>
                                 </li>
-
-                        		 <li class="last">
-                                    <a href="">
-                                        Sample 3
-                                    </a>
+                                <li class="list-group-item">
+                                   <a class="track" href="audios/track04.m4a">
+                                       04 Violin Sonata In D Minor, Op. 42 No. 1 (Arr. For Guitar)_ II. Adagio Con Gran Espressione
+                                   </a>
                                 </li>
+                                <li class="list-group-item">
+                                  <a class="track" href="audios/track05.m4a">
+                                      05 Violin Sonata In D Minor, Op. 42 No. 1 (Arr. For Guitar)_ III. Prestissimo Assai
+                                  </a>
+                                </li>
+                                <li class="list-group-item">
+                                  <a class="track" href="audios/track06.m4a">
+                                     06 Violin Sonata In D Minor, Op. 42 No. 1 (Arr. For Guitar)_ IV. Allegro Energico
+                                  </a>
+                               </li>
+                               <li class="list-group-item">
+                                 <a class="track" href="audios/track07.m4a">
+                                     07 Prelude & Fugue In G Major, Op. 131a No. 3 (Arr. For Guitar)_ I. Prelude. Vivacissimo
+                                 </a>
+                              </li>
+                              <li class="list-group-item">
+                                <a class="track" href="audios/track08.m4a">
+                                   08 Prelude & Fugue In G Major, Op. 131a No. 3 (Arr. For Guitar)_ II. Fugue. Sostenuto
+                                </a>
+                              </li>
+                              <li class="list-group-item">
+                                 <a class="track" href="audios/track09.m4a">
+                                    09 Cello Suite In A Minor, Op. 131c No. 3 (Arr. For Guitar)_ I. Prelude. Sostenuto
+                                 </a>
+                              </li>
+                              <li class="list-group-item">
+                                 <a class="track" href="audios/track10.m4a">
+                                   10 Cello Suite In A Minor, Op. 131c No. 3 (Arr. For Guitar)_ II. Scherzo. Vivace
+                                 </a>
+                              </li>
+                              <li class="list-group-item">
+                                  <a class="track" href="audios/track11.m4a">
+                                      11 Cello Suite In A Minor, Op. 131c No. 3 (Arr. For Guitar)_ IIIa. Andante Con Variazioni. Andante
+                                  </a>
+                              </li>
+                              <li class="list-group-item">
+                                  <a class="track" href="audios/track12.m4a">
+                                      12 Cello Suite In A Minor, Op. 131c No. 3 (Arr. For Guitar)_ IIIb. Andante Con Variazioni. Var. 1
+                                  </a>
+                              </li>
+                              <li class="list-group-item">
+                                  <a class="track" href="audios/track13.m4a">
+                                      13 Cello Suite In A Minor, Op. 131c No. 3 (Arr. For Guitar)_ IIIc. Andante Con Variazioni. Var. 2
+                                  </a>
+                              </li>
+                              <li class="list-group-item">
+                                  <a class="track" href="audios/track14.m4a">
+                                      14 Cello Suite In A Minor, Op. 131c No. 3 (Arr. For Guitar)_ IIId. Andante Con Variazioni. Var. 3
+                                  </a>
+                              </li>
+                              <li class="list-group-item">
+                                  <a class="track" href="audios/track15.m4a">
+                                      15 Cello Suite In A Minor, Op. 131c No. 3 (Arr. For Guitar)_ IIIe. Andante Con Variazioni. Var. 4.
+                                  </a>
+                              </li>
+                              <li class="list-group-item">
+                                  <a class="track" href="audios/track16.m4a">
+                                      16 Cello Suite In A Minor, Op. 131c No. 3 (Arr. For Guitar)_ IIIf. Andante Con Variazioni. Var. 5
+                                  </a>
+                              </li>
+                              <li class="list-group-item">
+                                  <a class="track" href="audios/track17.m4a">
+                                      17 Cello Suite In G Major, Op. 131c No. 1 (Arr. For Guitar)_ I. Prelude. Vivace
+                                  </a>
+                              </li>
+                              <li class="list-group-item">
+                                  <a class="track" href="audios/track18.m4a">
+                                      18 Cello Suite In G Major, Op. 131c No. 1 (Arr. For Guitar)_ II. Adagio
+                                  </a>
+                              </li>
+                              <li class="list-group-item">
+                                  <a class="track" href="audios/track19.m4a">
+                                      19 Cello Suite In G Major, Op. 131c No. 1 (Arr. For Guitar)_ III. Fugue. Allegro
+                                  </a>
+                              </li>
 
                             </ul>
 
@@ -148,7 +224,7 @@ From 1997 - 2001, Laura was the founder and Artistic Director of the Amsterdam I
               <div class="cdcontainer">
                 <img src="img/cdlacrimosa.jpg" width="350" height="350" class="image">
                 <div class="overlay">
-                  <button type="button" class="btn btn-outline-primary text " data-toggle="modal" data-target="#modalIMG2">Read more</button>
+                  <button type="button" class="btn btn-outline-light btn-block text " data-toggle="modal" data-target="#modalIMG2" style="font-size:20px;">Read more</button>
                 </div>
                 <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG2" role="dialog" tabindex="-1">
                 	<div class="modal-dialog modal-lg modal-dialog-centered" role: "document">
@@ -158,9 +234,7 @@ From 1997 - 2001, Laura was the founder and Artistic Director of the Amsterdam I
                           <div class="row">
                             <img src="img/cdlacrimosa.jpg" alt="" style="width:50%">
                             <div class="col-6">
-                              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit class risus commodo varius, fermentum nullam odio accumsan fames purus tincidunt phasellus laoreet quisque, torquent tellus pretium sociis penatibus lectus bibendum vivamus hendrerit duis. Luctus integer sagittis nullam natoque blandit fermentum mollis, facilisi ante quam interdum donec leo nisl, posuere tempus arcu fringilla proin cursus. Volutpat ad accumsan sodales imperdiet cum morbi, maecenas cubilia et odio proin, eget lacinia eu ac ut.
-
-        Curabitur hendrerit orci morbi molestie pharetra imperdiet, purus quam fusce sem quis fringilla inceptos, non euismod eleifend posuere cubilia. A sociis sodales placerat metus venenatis habitasse orci curabitur, libero consequat at ligula fermentum interdum facilisis, primis vivamus sem rhoncus laoreet class scelerisque. Nisl fusce ante fames auctor porta magnis et id a, class nullam dignissim dapibus litora interdum convallis curae, tempor semper ullamcorper egestas eros fermentum lectus vulputate.</p>
+                              <iframe src="https://open.spotify.com/embed/album/7tWqN8laZdvddWZieMGAfw" width="105%" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media" class="spotilacri"></iframe>
 
                             </div>
 
@@ -181,7 +255,7 @@ From 1997 - 2001, Laura was the founder and Artistic Director of the Amsterdam I
               <div class="cdcontainer">
                 <img src="img/cdtrio.jpg" width="350" height="350" class="image">
                 <div class="overlay">
-                  <button type="button" class="btn btn-outline-primary text " data-toggle="modal" data-target="#modalIMG3">Read more</button>
+                  <button type="button" class="btn btn-outline-light btn-block text " data-toggle="modal" data-target="#modalIMG3" style="font-size:20px;">Read more</button>
                 </div>
                 <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG3" role="dialog" tabindex="-1">
                 	<div class="modal-dialog modal-lg modal-dialog-centered" role: "document">
@@ -190,7 +264,7 @@ From 1997 - 2001, Laura was the founder and Artistic Director of the Amsterdam I
                         <div class="container-fluid">
                           <div class="row">
                             <img src="img/cdtrio.jpg" alt="" style="width:50%">
-                            <div class="col-6">
+                            <div class="col-6 bg-modal">
                               <p>Lorem ipsum dolor sit amet consectetur adipiscing elit class risus commodo varius, fermentum nullam odio accumsan fames purus tincidunt phasellus laoreet quisque, torquent tellus pretium sociis penatibus lectus bibendum vivamus hendrerit duis. Luctus integer sagittis nullam natoque blandit fermentum mollis, facilisi ante quam interdum donec leo nisl, posuere tempus arcu fringilla proin cursus. Volutpat ad accumsan sodales imperdiet cum morbi, maecenas cubilia et odio proin, eget lacinia eu ac ut.
 
         Curabitur hendrerit orci morbi molestie pharetra imperdiet, purus quam fusce sem quis fringilla inceptos, non euismod eleifend posuere cubilia. A sociis sodales placerat metus venenatis habitasse orci curabitur, libero consequat at ligula fermentum interdum facilisis, primis vivamus sem rhoncus laoreet class scelerisque. Nisl fusce ante fames auctor porta magnis et id a, class nullam dignissim dapibus litora interdum convallis curae, tempor semper ullamcorper egestas eros fermentum lectus vulputate.</p>
@@ -213,16 +287,22 @@ From 1997 - 2001, Laura was the founder and Artistic Director of the Amsterdam I
               <div class="cdcontainer">
                 <img src="img/cdlaurasolo.jpg" width="350" height="350" class="image">
                 <div class="overlay">
-                  <button type="button" class="btn btn-outline-primary text " data-toggle="modal" data-target="#modalIMG4">Read more</button>
+                  <button type="button" class="btn btn-outline-light btn-block text " data-toggle="modal" data-target="#modalIMG4" style="font-size:20px;">Read more</button>
                 </div>
                 <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG4" role="dialog" tabindex="-1">
                   <div class="modal-dialog modal-lg modal-dialog-centered" role: "document">
-                    <div class="modal-content">
+          <script>
+    $(document).ready(function () {
+      $("#myimage").click(function () {
+        $('#modalIMG').modal('show');
+      });
+    });
+    </script>              <div class="modal-content">
                       <div class="modal-body mb-0 p-0">
                         <div class="container-fluid">
                           <div class="row">
                             <img src="img/cdlaurasolo.jpg" alt="" style="width:50%">
-                            <div class="col-6">
+                            <div class="col-6 bg-modal">
                               <p>Lorem ipsum dolor sit amet consectetur adipiscing elit class risus commodo varius, fermentum nullam odio accumsan fames purus tincidunt phasellus laoreet quisque, torquent tellus pretium sociis penatibus lectus bibendum vivamus hendrerit duis. Luctus integer sagittis nullam natoque blandit fermentum mollis, facilisi ante quam interdum donec leo nisl, posuere tempus arcu fringilla proin cursus. Volutpat ad accumsan sodales imperdiet cum morbi, maecenas cubilia et odio proin, eget lacinia eu ac ut.
 
         Curabitur hendrerit orci morbi molestie pharetra imperdiet, purus quam fusce sem quis fringilla inceptos, non euismod eleifend posuere cubilia. A sociis sodales placerat metus venenatis habitasse orci curabitur, libero consequat at ligula fermentum interdum facilisis, primis vivamus sem rhoncus laoreet class scelerisque. Nisl fusce ante fames auctor porta magnis et id a, class nullam dignissim dapibus litora interdum convallis curae, tempor semper ullamcorper egestas eros fermentum lectus vulputate.</p>
@@ -242,7 +322,7 @@ From 1997 - 2001, Laura was the founder and Artistic Director of the Amsterdam I
               <div class="cdcontainer">
                 <img src="img/cdbelleexcentriquetrio.jpg" width="350" height="350" class="image">
                 <div class="overlay">
-                  <button type="button" class="btn btn-outline-primary text " data-toggle="modal" data-target="#modalIMG5">Read more</button>
+                  <button type="button" class="btn btn-outline-light btn-block text " data-toggle="modal" data-target="#modalIMG5" style="font-size:20px;">Read more</button>
                 </div>
                 <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG5" role="dialog" tabindex="-1">
                   <div class="modal-dialog modal-lg modal-dialog-centered" role: "document">
@@ -251,7 +331,7 @@ From 1997 - 2001, Laura was the founder and Artistic Director of the Amsterdam I
                         <div class="container-fluid">
                           <div class="row">
                             <img src="img/cdbelleexcentriquetrio.jpg" alt="" style="width:50%">
-                            <div class="col-6">
+                            <div class="col-6 bg-modal">
                               <p>Lorem ipsum dolor sit amet consectetur adipiscing elit class risus commodo varius, fermentum nullam odio accumsan fames purus tincidunt phasellus laoreet quisque, torquent tellus pretium sociis penatibus lectus bibendum vivamus hendrerit duis. Luctus integer sagittis nullam natoque blandit fermentum mollis, facilisi ante quam interdum donec leo nisl, posuere tempus arcu fringilla proin cursus. Volutpat ad accumsan sodales imperdiet cum morbi, maecenas cubilia et odio proin, eget lacinia eu ac ut.
 
         Curabitur hendrerit orci morbi molestie pharetra imperdiet, purus quam fusce sem quis fringilla inceptos, non euismod eleifend posuere cubilia. A sociis sodales placerat metus venenatis habitasse orci curabitur, libero consequat at ligula fermentum interdum facilisis, primis vivamus sem rhoncus laoreet class scelerisque. Nisl fusce ante fames auctor porta magnis et id a, class nullam dignissim dapibus litora interdum convallis curae, tempor semper ullamcorper egestas eros fermentum lectus vulputate.</p>
@@ -271,7 +351,7 @@ From 1997 - 2001, Laura was the founder and Artistic Director of the Amsterdam I
               <div class="cdcontainer">
                 <img src="img/cdworldguitar.jpg" width="350" height="350" class="image">
                 <div class="overlay">
-                  <button type="button" class="btn btn-outline-primary text " data-toggle="modal" data-target="#modalIMG6">Read more</button>
+                  <button type="button" class="btn btn-outline-light btn-block text " data-toggle="modal" data-target="#modalIMG6" style="font-size:20px;">Read more</button>
                 </div>
                 <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG6" role="dialog" tabindex="-1">
                   <div class="modal-dialog modal-lg modal-dialog-centered" role: "document">
@@ -280,7 +360,7 @@ From 1997 - 2001, Laura was the founder and Artistic Director of the Amsterdam I
                         <div class="container-fluid">
                           <div class="row">
                             <img src="img/cdworldguitar.jpg" alt="" style="width:50%">
-                            <div class="col-6">
+                            <div class="col-6 bg-modal">
                               <p>Lorem ipsum dolor sit amet consectetur adipiscing elit class risus commodo varius, fermentum nullam odio accumsan fames purus tincidunt phasellus laoreet quisque, torquent tellus pretium sociis penatibus lectus bibendum vivamus hendrerit duis. Luctus integer sagittis nullam natoque blandit fermentum mollis, facilisi ante quam interdum donec leo nisl, posuere tempus arcu fringilla proin cursus. Volutpat ad accumsan sodales imperdiet cum morbi, maecenas cubilia et odio proin, eget lacinia eu ac ut.
 
         Curabitur hendrerit orci morbi molestie pharetra imperdiet, purus quam fusce sem quis fringilla inceptos, non euismod eleifend posuere cubilia. A sociis sodales placerat metus venenatis habitasse orci curabitur, libero consequat at ligula fermentum interdum facilisis, primis vivamus sem rhoncus laoreet class scelerisque. Nisl fusce ante fames auctor porta magnis et id a, class nullam dignissim dapibus litora interdum convallis curae, tempor semper ullamcorper egestas eros fermentum lectus vulputate.</p>
@@ -532,5 +612,6 @@ From 1997 - 2001, Laura was the founder and Artistic Director of the Amsterdam I
           audio[0].play();
     }
     </script>
+
 </body>
 </html>
