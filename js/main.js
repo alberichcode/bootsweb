@@ -13,11 +13,11 @@
             else {
                 $(this).removeClass('has-val');
             }
-        })    
+        })
     })
-            
-  
-    
+
+
+
     /*==================================================================
     [ Validate ]*/
     var name = $('.validate-input input[name="name"]');
@@ -65,7 +65,7 @@
 
         $(thisAlert).removeClass('alert-validate');
     }
-    
-    
+
+
 
 })(jQuery);

@@ -89,72 +89,214 @@ From 1997 - 2001, Laura was the founder and Artistic Director of the Amsterdam I
          </div>
         </div>
          <div class="grid-cd" id = "music">
-         	  <figure class="imghvr-flip-horiz" style="background-color:rgb(174, 55, 55);" >
-              <img src="img/cdreager.jpg" width="350" height="350">
-              <figcaption style="background-color:rgb(136, 43, 43);">
-                <h3>Oscar Wilde</h3>
-                <p style= "color: white;">
-                <i>"I have the simplest tastes, I am always satisfied with the best."</i>
-                </p>
-              </figcaption>
-              <a href="#"></a>
-            </figure>
+           <div class="cdcontainer">
+             <img src="img/cdreager.jpg" width="350" height="350" class="image">
+             <div class="overlay">
+               <button type="button" class="btn btn-outline-primary text " data-toggle="modal" data-target="#modalIMG">Read more</button>
+             </div>
+             <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG" role="dialog" tabindex="-1">
+               <div class="modal-dialog modal-lg modal-dialog-centered" role: "document">
+                 <div class="modal-content">
+                   <div class="modal-body mb-0 p-0">
+                     <div class="container-fluid">
+                       <div class="row">
+                         <img src="img/cdreager.jpg" alt="" style="width:50%">
+                         <div class="col-6">
+                           <div class="panel panel-default audio-panel">
+                                       <audio id="audio"  preload="auto" tabindex="0" controls>
+                                           <source src="audios/track01.m4a">
+                                       </audio>
+                           </div>
+                           <ul id="playlist">
+
+                               <li class="active list-group-item">
+                                    <a href="https://jsbin-user-assets.s3.amazonaws.com/ipodscott/sample1.mp3">
+                                       Sample 1
+                                    </a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://jsbin-user-assets.s3.amazonaws.com/ipodscott/sample2.mp3">
+                                        Sample 2
+                                    </a>
+                                </li>
+                                 <li class="list-group-item">
+                                    <a href="https://jsbin-user-assets.s3.amazonaws.com/ipodscott/sample3.mp3">
+                                        Sample 3
+                                    </a>
+                                </li>
+
+                        		 <li class="last">
+                                    <a href="">
+                                        Sample 3
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                         </div>
+
+                       </div>
+                     </div>
+
+                   </div>
+                 </div>
+               </div>
+             </div>
+
+
+           </div>
               <div class="cdcontainer">
                 <img src="img/cdlacrimosa.jpg" width="350" height="350" class="image">
                 <div class="overlay">
-                  <div class="btn btn-outline-info text">Read more</div>
-
+                  <button type="button" class="btn btn-outline-primary text " data-toggle="modal" data-target="#modalIMG2">Read more</button>
                 </div>
+                <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG2" role="dialog" tabindex="-1">
+                	<div class="modal-dialog modal-lg modal-dialog-centered" role: "document">
+                		<div class="modal-content">
+                			<div class="modal-body mb-0 p-0">
+                        <div class="container-fluid">
+                          <div class="row">
+                            <img src="img/cdlacrimosa.jpg" alt="" style="width:50%">
+                            <div class="col-6">
+                              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit class risus commodo varius, fermentum nullam odio accumsan fames purus tincidunt phasellus laoreet quisque, torquent tellus pretium sociis penatibus lectus bibendum vivamus hendrerit duis. Luctus integer sagittis nullam natoque blandit fermentum mollis, facilisi ante quam interdum donec leo nisl, posuere tempus arcu fringilla proin cursus. Volutpat ad accumsan sodales imperdiet cum morbi, maecenas cubilia et odio proin, eget lacinia eu ac ut.
+
+        Curabitur hendrerit orci morbi molestie pharetra imperdiet, purus quam fusce sem quis fringilla inceptos, non euismod eleifend posuere cubilia. A sociis sodales placerat metus venenatis habitasse orci curabitur, libero consequat at ligula fermentum interdum facilisis, primis vivamus sem rhoncus laoreet class scelerisque. Nisl fusce ante fames auctor porta magnis et id a, class nullam dignissim dapibus litora interdum convallis curae, tempor semper ullamcorper egestas eros fermentum lectus vulputate.</p>
+
+                            </div>
+
+                          </div>
+                        </div>
+
+                			</div>
+                		</div>
+                	</div>
+                </div>
+
 
               </div>
 
 
 
-            <figure class="imghvr-flip-horiz" >
-              <img src="img/cdtrio.jpg" width="350" height="350">
-              <figcaption style="background-color: rgb(0, 0, 102);">
-                <h3>Oscar Wilde</h3>
-                <p style= "color: white;">
-                <i>"I have the simplest tastes, I am always satisfied with the best."</i>
-                </p>
-                <button class=" btn btn-info" href="#">Buy it</button>
-              </figcaption>
-              <a href="#"></a>
-            </figure>
 
-            <figure class="imghvr-flip-horiz" style="background-color:rgb(174, 55, 55);" >
-              <img src="img/cdlaurasolo.jpg" width="350" height="350">
-              <figcaption style="background-color:rgb(136, 43, 43);">
-                <h3>Oscar Wilde</h3>
-                <p style= "color: white;">
-                <i>"I have the simplest tastes, I am always satisfied with the best."</i>
-                </p>
-                <button class=" btn btn-info" href="#">Buy it</button>
-              </figcaption>
-              <a href="#"></a>
-            </figure>
-            <figure class="imghvr-flip-horiz" style="background-color:rgb(174, 55, 55);" >
-              <img src="img/cdbelleexcentriquetrio.jpg" width="350" height="350">
-              <figcaption style="background-color:rgb(136, 43, 43);">
-                <h3>Oscar Wilde</h3>
-                <p style= "color: white;">
-                <i>"I have the simplest tastes, I am always satisfied with the best."</i>
-                </p>
-                <button class=" btn btn-info" href="#">Buy it</button>
-              </figcaption>
-              <a href="#"></a>
-            </figure>
-            <figure class="imghvr-flip-horiz" >
-              <img src="img/cdworldguitar.jpg" width="350" height="350">
-               <figcaption style="background-color: rgb(0, 0, 102);">
-                <h3>Oscar Wilde</h3>
-                <p style= "color: white;">
-                <i>"I have the simplest tastes, I am always satisfied with the best."</i>
-                </p>
-                <button class=" btn btn-info" href="#">Buy it</button>
-              </figcaption>
-              <a href="#"></a>
-            </figure>
+              <div class="cdcontainer">
+                <img src="img/cdtrio.jpg" width="350" height="350" class="image">
+                <div class="overlay">
+                  <button type="button" class="btn btn-outline-primary text " data-toggle="modal" data-target="#modalIMG3">Read more</button>
+                </div>
+                <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG3" role="dialog" tabindex="-1">
+                	<div class="modal-dialog modal-lg modal-dialog-centered" role: "document">
+                		<div class="modal-content">
+                			<div class="modal-body mb-0 p-0">
+                        <div class="container-fluid">
+                          <div class="row">
+                            <img src="img/cdtrio.jpg" alt="" style="width:50%">
+                            <div class="col-6">
+                              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit class risus commodo varius, fermentum nullam odio accumsan fames purus tincidunt phasellus laoreet quisque, torquent tellus pretium sociis penatibus lectus bibendum vivamus hendrerit duis. Luctus integer sagittis nullam natoque blandit fermentum mollis, facilisi ante quam interdum donec leo nisl, posuere tempus arcu fringilla proin cursus. Volutpat ad accumsan sodales imperdiet cum morbi, maecenas cubilia et odio proin, eget lacinia eu ac ut.
+
+        Curabitur hendrerit orci morbi molestie pharetra imperdiet, purus quam fusce sem quis fringilla inceptos, non euismod eleifend posuere cubilia. A sociis sodales placerat metus venenatis habitasse orci curabitur, libero consequat at ligula fermentum interdum facilisis, primis vivamus sem rhoncus laoreet class scelerisque. Nisl fusce ante fames auctor porta magnis et id a, class nullam dignissim dapibus litora interdum convallis curae, tempor semper ullamcorper egestas eros fermentum lectus vulputate.</p>
+
+                            </div>
+
+                          </div>
+                        </div>
+
+                			</div>
+                		</div>
+                	</div>
+                </div>
+
+
+              </div>
+
+
+
+              <div class="cdcontainer">
+                <img src="img/cdlaurasolo.jpg" width="350" height="350" class="image">
+                <div class="overlay">
+                  <button type="button" class="btn btn-outline-primary text " data-toggle="modal" data-target="#modalIMG4">Read more</button>
+                </div>
+                <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG4" role="dialog" tabindex="-1">
+                  <div class="modal-dialog modal-lg modal-dialog-centered" role: "document">
+                    <div class="modal-content">
+                      <div class="modal-body mb-0 p-0">
+                        <div class="container-fluid">
+                          <div class="row">
+                            <img src="img/cdlaurasolo.jpg" alt="" style="width:50%">
+                            <div class="col-6">
+                              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit class risus commodo varius, fermentum nullam odio accumsan fames purus tincidunt phasellus laoreet quisque, torquent tellus pretium sociis penatibus lectus bibendum vivamus hendrerit duis. Luctus integer sagittis nullam natoque blandit fermentum mollis, facilisi ante quam interdum donec leo nisl, posuere tempus arcu fringilla proin cursus. Volutpat ad accumsan sodales imperdiet cum morbi, maecenas cubilia et odio proin, eget lacinia eu ac ut.
+
+        Curabitur hendrerit orci morbi molestie pharetra imperdiet, purus quam fusce sem quis fringilla inceptos, non euismod eleifend posuere cubilia. A sociis sodales placerat metus venenatis habitasse orci curabitur, libero consequat at ligula fermentum interdum facilisis, primis vivamus sem rhoncus laoreet class scelerisque. Nisl fusce ante fames auctor porta magnis et id a, class nullam dignissim dapibus litora interdum convallis curae, tempor semper ullamcorper egestas eros fermentum lectus vulputate.</p>
+
+                            </div>
+
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+              <div class="cdcontainer">
+                <img src="img/cdbelleexcentriquetrio.jpg" width="350" height="350" class="image">
+                <div class="overlay">
+                  <button type="button" class="btn btn-outline-primary text " data-toggle="modal" data-target="#modalIMG5">Read more</button>
+                </div>
+                <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG5" role="dialog" tabindex="-1">
+                  <div class="modal-dialog modal-lg modal-dialog-centered" role: "document">
+                    <div class="modal-content">
+                      <div class="modal-body mb-0 p-0">
+                        <div class="container-fluid">
+                          <div class="row">
+                            <img src="img/cdbelleexcentriquetrio.jpg" alt="" style="width:50%">
+                            <div class="col-6">
+                              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit class risus commodo varius, fermentum nullam odio accumsan fames purus tincidunt phasellus laoreet quisque, torquent tellus pretium sociis penatibus lectus bibendum vivamus hendrerit duis. Luctus integer sagittis nullam natoque blandit fermentum mollis, facilisi ante quam interdum donec leo nisl, posuere tempus arcu fringilla proin cursus. Volutpat ad accumsan sodales imperdiet cum morbi, maecenas cubilia et odio proin, eget lacinia eu ac ut.
+
+        Curabitur hendrerit orci morbi molestie pharetra imperdiet, purus quam fusce sem quis fringilla inceptos, non euismod eleifend posuere cubilia. A sociis sodales placerat metus venenatis habitasse orci curabitur, libero consequat at ligula fermentum interdum facilisis, primis vivamus sem rhoncus laoreet class scelerisque. Nisl fusce ante fames auctor porta magnis et id a, class nullam dignissim dapibus litora interdum convallis curae, tempor semper ullamcorper egestas eros fermentum lectus vulputate.</p>
+
+                            </div>
+
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+              <div class="cdcontainer">
+                <img src="img/cdworldguitar.jpg" width="350" height="350" class="image">
+                <div class="overlay">
+                  <button type="button" class="btn btn-outline-primary text " data-toggle="modal" data-target="#modalIMG6">Read more</button>
+                </div>
+                <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalIMG6" role="dialog" tabindex="-1">
+                  <div class="modal-dialog modal-lg modal-dialog-centered" role: "document">
+                    <div class="modal-content">
+                      <div class="modal-body mb-0 p-0">
+                        <div class="container-fluid">
+                          <div class="row">
+                            <img src="img/cdworldguitar.jpg" alt="" style="width:50%">
+                            <div class="col-6">
+                              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit class risus commodo varius, fermentum nullam odio accumsan fames purus tincidunt phasellus laoreet quisque, torquent tellus pretium sociis penatibus lectus bibendum vivamus hendrerit duis. Luctus integer sagittis nullam natoque blandit fermentum mollis, facilisi ante quam interdum donec leo nisl, posuere tempus arcu fringilla proin cursus. Volutpat ad accumsan sodales imperdiet cum morbi, maecenas cubilia et odio proin, eget lacinia eu ac ut.
+
+        Curabitur hendrerit orci morbi molestie pharetra imperdiet, purus quam fusce sem quis fringilla inceptos, non euismod eleifend posuere cubilia. A sociis sodales placerat metus venenatis habitasse orci curabitur, libero consequat at ligula fermentum interdum facilisis, primis vivamus sem rhoncus laoreet class scelerisque. Nisl fusce ante fames auctor porta magnis et id a, class nullam dignissim dapibus litora interdum convallis curae, tempor semper ullamcorper egestas eros fermentum lectus vulputate.</p>
+
+                            </div>
+
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
 
 
 
@@ -349,5 +491,46 @@ From 1997 - 2001, Laura was the founder and Artistic Director of the Amsterdam I
 
 		 gtag('config', 'UA-23581568-13');
 	  </script>
+
+    <script type="text/javascript">
+    var audio;
+    var playlist;
+    var tracks;
+    var current;
+
+    init();
+    function init(){
+      current = 0;
+      audio = $('#audio');
+      playlist = $('#playlist');
+      tracks = playlist.find('li a');
+      len = tracks.length - 1;
+      audio[0].volume = 0.5;
+      audio[0].play();
+      playlist.find('a').click(function(e){
+          e.preventDefault();
+          link = $(this);
+          current = link.parent().index();
+          run(link, audio[0]);
+      });
+      audio[0].addEventListener('ended',function(e){
+          current++;
+          if(current == len){
+              current = 0;
+              link = playlist.find('a')[0];
+          }else{
+              link = playlist.find('a')[current];
+          }
+          run($(link),audio[0]);
+      });
+    }
+    function run(link, player){
+          player.src = link.attr('href');
+          par = link.parent();
+          par.addClass('active').siblings().removeClass('active');
+          audio[0].load();
+          audio[0].play();
+    }
+    </script>
 </body>
 </html>
