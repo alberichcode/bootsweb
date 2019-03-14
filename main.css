@@ -236,6 +236,18 @@ nav ul li a {
       background-attachment: fixed;
 
 }
+@media only screen and (min-width: 2000px) {
+  .grid-cd{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        display: grid;
+      	grid-template-columns: repeat( auto-fit, minmax(800px, 1fr) );
+        justify-content: center;
+        justify-items: center;
+      	grid-gap: 1rem;
+
+  }
+}
 .image{
   height: 350px;
   width: 350px;
