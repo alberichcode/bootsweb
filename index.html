@@ -7,7 +7,7 @@
       <title>Laura Young</title>
 
       <!-- stylesheet -->
-      <link rel="stylesheet" href="main.scss">
+      <link rel="stylesheet" href="main.css">
 
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
       <!-- font-awesome -->
@@ -88,9 +88,9 @@ From 1997 - 2001, Laura was the founder and Artistic Director of the Amsterdam I
 
          </div>
         </div>
-         <div class="grid-cd" id = "music">
+         <article class="grid-cd" id = "music">
            <div class="cdcontainer">
-             <img src="img/cdreager.jpg" width="350" height="350" class="image" id="myimage">
+             <img src="img/cdreager.jpg" class="image" id="myimage">
              <div class="overlay">
                <button type="button" class="btn btn-outline-light btn-block text " data-toggle="modal" data-target="#modalIMG" style="font-size:20px;">Read more</button>
              </div>
@@ -222,7 +222,7 @@ From 1997 - 2001, Laura was the founder and Artistic Director of the Amsterdam I
 
            </div>
               <div class="cdcontainer">
-                <img src="img/cdlacrimosa.jpg" width="350" height="350" class="image">
+                <img src="img/cdlacrimosa.jpg" class="image">
                 <div class="overlay">
                   <button type="button" class="btn btn-outline-light btn-block text " data-toggle="modal" data-target="#modalIMG2" style="font-size:20px;">Read more</button>
                 </div>
@@ -253,7 +253,7 @@ From 1997 - 2001, Laura was the founder and Artistic Director of the Amsterdam I
 
 
               <div class="cdcontainer">
-                <img src="img/cdtrio.jpg" width="350" height="350" class="image">
+                <img src="img/cdtrio.jpg" class="image">
                 <div class="overlay">
                   <button type="button" class="btn btn-outline-light btn-block text " data-toggle="modal" data-target="#modalIMG3" style="font-size:20px;">Read more</button>
                 </div>
@@ -291,7 +291,7 @@ From 1997 - 2001, Laura was the founder and Artistic Director of the Amsterdam I
 
 
               <div class="cdcontainer">
-                <img src="img/cdlaurasolo.jpg" width="350" height="350" class="image">
+                <img src="img/cdlaurasolo.jpg" class="image">
                 <div class="overlay">
                   <button type="button" class="btn btn-outline-light btn-block text " data-toggle="modal" data-target="#modalIMG4" style="font-size:20px;">Read more</button>
                 </div>
@@ -326,7 +326,7 @@ From 1997 - 2001, Laura was the founder and Artistic Director of the Amsterdam I
 
               </div>
               <div class="cdcontainer">
-                <img src="img/cdbelleexcentriquetrio.jpg" width="350" height="350" class="image">
+                <img src="img/cdbelleexcentriquetrio.jpg" class="image">
                 <div class="overlay">
                   <button type="button" class="btn btn-outline-light btn-block text " data-toggle="modal" data-target="#modalIMG5" style="font-size:20px;">Read more</button>
                 </div>
@@ -349,7 +349,7 @@ From 1997 - 2001, Laura was the founder and Artistic Director of the Amsterdam I
 
               </div>
               <div class="cdcontainer">
-                <img src="img/cdworldguitar.jpg" width="350" height="350" class="image">
+                <img src="img/cdworldguitar.jpg" class="image">
                 <div class="overlay">
                   <button type="button" class="btn btn-outline-light btn-block text " data-toggle="modal" data-target="#modalIMG6" style="font-size:20px;">Read more</button>
                 </div>
@@ -388,7 +388,7 @@ From 1997 - 2001, Laura was the founder and Artistic Director of the Amsterdam I
 
 
 
-     </div>
+     </article>
 
      <div class="contenedor" id="reviews">
 		  <section class="effect effect-a col-7">
@@ -476,85 +476,85 @@ From 1997 - 2001, Laura was the founder and Artistic Director of the Amsterdam I
     <!-- Footer -->
 
 
-     <!--<script type="text/javascript">
+     <script type="text/javascript">
 
-      TweenMax.to(".overlay h1", 2, {
-            opacity: 0,
-            y: -60,
-            ease: Expo.easeInOut
-      })
+      //TweenMax.to(".overlay h1", 2, {
+            //opacity: 0,
+            //y: -60,
+            //ease: Expo.easeInOut
+      //})
 
-      TweenMax.to(".overlay", 2, {
-            delay: 1,
-            top: "-102%",
-            ease: Expo.easeInOut
-      })
+      //TweenMax.to(".overlay", 2, {
+            //delay: 1,
+            //top: "-102%",
+            //ease: Expo.easeInOut
+      //})
 
       TweenMax.from(".logo", 1, {
-            delay: 2.4,
+            delay: 1,
             opacity: 0,
             y: 20,
             ease: Expo.easeInOut
       })
 
       TweenMax.staggerFrom("nav ul li", 1, {
-            delay: 2.4, opacity: 0, y: 20, ease: Expo.easeInOut
+            delay: 1, opacity: 0, y: 20, ease: Expo.easeInOut
       }, 0.2)
 
       TweenMax.staggerFrom(".social-media ul li", 1, {
-            delay: 2.4, opacity: 0, y: 20, ease: Expo.easeInOut
+            delay: 1, opacity: 0, y: 20, ease: Expo.easeInOut
       }, 0.2)
 
       TweenMax.from(".side-strip", 2, {
-            delay: 2.4,
+            delay: 1,
             opacity: 0,
             y: 40,
             ease: Expo.easeInOut
       })
 
       TweenMax.from(".row", 2, {
-            delay: 2.4,
+            delay: 1,
             opacity: 0,
             x: 40,
             ease: Expo.easeInOut
       })
 
       TweenMax.from(".row h6", 2, {
-            delay: 3,
+            delay: 1.6,
             opacity: 0,
             y: 40,
             ease: Expo.easeInOut
       })
 
       TweenMax.from(".row p", 2, {
-            delay: 3.2,
+            delay: 1.8,
             opacity: 0,
             y: 20,
             ease: Expo.easeInOut
       })
 
       TweenMax.from(".header h1", 2, {
-            delay: 3.2,
+            delay: 1.8,
             opacity: 0,
             y: 20,
             ease: Expo.easeInOut
       })
 
       TweenMax.from(".header p", 2, {
-            delay: 3.4,
+            delay: 2,
             opacity: 0,
             y: 20,
             ease: Expo.easeInOut
       })
 
       TweenMax.from(".header button", 2, {
-            delay: 3.6,
+            delay: 2.2,
             opacity: 0,
             y: 20,
             ease: Expo.easeInOut
       })
 
-    </script>-->
+    </script>
     <script type="text/javascript">
       $(document).ready(function() {
             $(".menu-icon").on("click", function() {
