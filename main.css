@@ -89,12 +89,12 @@ nav ul li a {
       line-height: 60px;
       width: 100%;
       background: #000;
-      text-align: right;
       box-sizing: border-box;
-      padding: 15px 24px;
+      padding: 20px 24px;
       cursor: pointer;
       color: #fff;
       display: none;
+
 }
 .wrapper{
   width: 100%;
@@ -106,6 +106,7 @@ nav ul li a {
             position: fixed;
             top: 0;
             margin-top: 16px;
+            margin-left: 100px;
       }
 
       nav ul {
@@ -193,7 +194,9 @@ nav ul li a {
         font-weight: lighter;
         font-size: 24px;
         padding-top: 40px;
-        color: black;
+  }
+  .img-bio{
+    display: none;
   }
 }
 .content {
@@ -236,6 +239,56 @@ nav ul li a {
       background-attachment: fixed;
 
 }
+.cdcontainer {
+  position: relative;
+  width: 50%;
+}
+.overlay {
+  width: 350px;
+  height: 350px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.cdcontainer:hover .overlay {
+  opacity: 0.3;
+  z-index: 0;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  cursor: pointer;
+}
+
+
+
+.panel{ margin: 20px; padding:0px; height:34px;}
+.audio-panel{border:none !important;}
+#playlist,audio{width:100%;}
+.active a{color:#fff;text-decoration:none;}
+ul#playlist{list-style:none; margin:0px; padding:20px;}
+li.list-group-item{margin:0px; padding:10px;}
+li, a.track{transition:all 0.3s;}
+.list-group-item.active a{ text-decoration:none; color:#fff;}
+a.track{display:block; position:relative; width:100%; font-size: 12px;}
+li a.track{display:block; text-decoration:none;}
+li:hover.list-group-item{background-color:#333;}
+li a:hover.list-group-item{text-decoration:none; color: #fff;}
+
+
+.bg-modal{
+  background-color: #ddd;
+}
+.btn-block{
+  height: 100%
+}
 @media only screen and (min-width: 2000px) {
   .grid-cd{
         padding-top: 100px;
@@ -253,9 +306,15 @@ nav ul li a {
   width: 350px;
   object-fit: cover;
 }
-[class*='imghvr-flip-horiz'] {
-      width: 350px;
-      height: 350px;
+@media only screen and (max-width: 850px)   {
+  .image{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+  }
+  .ocultar{
+    display: none;
+  }
 }
 
 .contenedor {
@@ -264,6 +323,8 @@ nav ul li a {
   background: #ddd;
   padding-top: 5%;
 }
+
+
 .effect {
   display: flex;
   flex-direction: column;
@@ -871,59 +932,7 @@ textarea.input2 + .focus-input2::after {
     opacity: 1;
   }
 }
-.cdcontainer {
-  position: relative;
-  width: 50%;
-}
-.overlay {
-  width: 350px;
-  height: 350px;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: white;
-}
 
-.cdcontainer:hover .overlay {
-  opacity: 0.3;
-  z-index: 0;
-}
-
-.text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-  cursor: pointer;
-}
-
-
-
-.panel{ margin: 20px; padding:0px; height:34px;}
-.audio-panel{border:none !important;}
-#playlist,audio{width:100%;}
-.active a{color:#fff;text-decoration:none;}
-ul#playlist{list-style:none; margin:0px; padding:20px;}
-li.list-group-item{margin:0px; padding:10px;}
-li, a.track{transition:all 0.3s;}
-.list-group-item.active a{ text-decoration:none; color:#fff;}
-a.track{display:block; position:relative; width:100%; font-size: 12px;}
-li a.track{display:block; text-decoration:none;}
-li:hover.list-group-item{background-color:#333;}
-li a:hover.list-group-item{text-decoration:none; color: #fff;}
-
-
-.bg-modal{
-  background-color: #ddd;
-}
-.btn-block{
-  height: 100%
-}
-.spotilacri{
-
-}
 footer{
   background-color: black;
   color: white;
